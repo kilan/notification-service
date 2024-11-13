@@ -105,6 +105,7 @@ class NotificationServiceIntegrationTest {
 
         registry.add("spring.datasource.url", postgreSQLContainer::getJdbcUrl);
         registry.add("pexels.baseUrl", () -> "http://" + pexelsContainer.getBaseUrl());
+        registry.add("pexels.api.key", () -> "apiKey");
         registry.add("spring.datasource.username", postgreSQLContainer::getUsername);
         registry.add("spring.datasource.password", postgreSQLContainer::getPassword);
         registry.add("spring.cloud.aws.region.static", () -> localStackContainer.getRegion());
