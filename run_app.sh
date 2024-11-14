@@ -1,7 +1,7 @@
 #!/bin/bash
 
 export SPRING_DATASOURCE_URL=jdbc:postgresql://localhost:5432/testdb
-export PEXELS_API_KEY=<YOUR_PEXELS_API_KEY>
+export PEXELS_API_KEY=5atfPzzmUGbpYAustsiGaDGb5SE2KOStrAV8fgPaGs5GH6f5Y85Sddbz
 export SPRING_DATASOURCE_USERNAME=testuser
 export SPRING_DATASOURCE_PASSWORD=testpassword
 export SPRING_JPA_HIBERNATE_DDL_AUTO=update
